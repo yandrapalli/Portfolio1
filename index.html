@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Yandrapalli Snehalatha - Full Stack Web Developer Portfolio. Passionate about building clean, user-friendly web applications.">
+    <meta name="keywords"
+        content="Full Stack Developer, Web Developer, Java, JavaScript, Portfolio, Yandrapalli Snehalatha">
+    <meta name="author" content="Yandrapalli Snehalatha">
+    <title>Yandrapalli Snehalatha | Full Stack Web Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p class="loader-text">Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-text">Snehalatha</span>
+                </a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Yandrapalli Snehalatha</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        I am a Full Stack Developer Trainee with a strong foundation in Java and web technologies.
+                        I am passionate about building clean, user-friendly web applications and continuously improving
+                        my problem-solving skills.
+                        Currently undergoing professional full stack training to gain hands-on industry experience.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary liquid-glass">
+                            <span>Get In Touch</span>
+                            <div class="glow"></div>
+                        </a>
+                        <a href="images/Sneha_Resume.pdf" download class="btn btn-secondary liquid-glass">
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                            <div class="glow"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="images/sneha.jpg" alt="Yandrapalli Snehalatha" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Here are some of my recent works</p>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be rendered dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+
+            <div class="timeline" id="timeline">
+                <!-- Experience timeline will be rendered dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be rendered dynamically by JavaScript -->
+            </div>
+
+            <div class="soft-skills" id="softSkills">
+                <!-- Soft skills will be rendered dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and build something amazing together</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" id="contactInfo">
+                    <!-- Contact information will be rendered dynamically by JavaScript -->
+                </div>
+
+                <div class="social-links" id="socialLinks">
+                    <!-- Social links will be rendered dynamically by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Yandrapalli Snehalatha. All rights reserved.</p>
+                <p class="footer-tagline">Built with <i class="fas fa-heart"></i> and passion</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/constants.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
